@@ -13,7 +13,7 @@ func (s Square) End() Point {
 	// implement me
 	return Point{
 		x: s.start.x + int(s.a),
-		y: s.start.y - int(s.a),
+		y: s.start.y + int(s.a),
 	}
 }
 
